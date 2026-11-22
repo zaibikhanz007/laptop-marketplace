@@ -21,7 +21,9 @@ return [
     // Cookie sessions keep the app usable on serverless deployments even when
     // no persistent sessions table has been provisioned yet. Set
     // SESSION_DRIVER=database explicitly when a shared sessions table is used.
-    'driver' => env('VERCEL') ? 'cookie' : env('SESSION_DRIVER', 'cookie'),
+    'driver' => app()->environment('production')
+        ? 'cookie'
+        : env('SESSION_DRIVER', 'cookie'),
 
     /*
     |--------------------------------------------------------------------------

@@ -17,7 +17,9 @@ return [
 
     // Array cache is safe as a serverless fallback. Set CACHE_STORE to a
     // shared backend (database/redis) when persistence is required.
-    'default' => env('VERCEL') ? 'array' : env('CACHE_STORE', 'array'),
+    'default' => app()->environment('production')
+        ? 'array'
+        : env('CACHE_STORE', 'array'),
 
     /*
     |--------------------------------------------------------------------------
