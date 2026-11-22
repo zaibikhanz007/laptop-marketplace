@@ -1,0 +1,697 @@
+[
+  {
+    "brand": "Acer",
+    "model": "Aspire 5 A515-57",
+    "processor": "Intel Core i5-1235U",
+    "ram": "8GB",
+    "storage": "512GB SSD",
+    "condition": "good",
+    "price": 72000,
+    "location": "Lahore",
+    "description": "Acer Aspire 5 A515-57 - Intel Core i5-1235U, 8GB RAM, 512GB SSD. Achi working condition. Halke normal use ke nishan hain, performance bilkul theek. Original charger shamil.",
+    "status": "available",
+    "images": [
+      "01-acer-aspire-5-a515-57/1.jpg",
+      "01-acer-aspire-5-a515-57/2.jpg",
+      "01-acer-aspire-5-a515-57/3.jpg"
+    ]
+  },
+  {
+    "brand": "Acer",
+    "model": "Swift 3 SF314-512",
+    "processor": "Intel Core i7-1260P",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "condition": "like_new",
+    "price": 118000,
+    "location": "Karachi",
+    "description": "Acer Swift 3 SF314-512 - Intel Core i7-1260P, 16GB RAM, 512GB SSD. Bohat kam use hua, bilkul clean condition. Box/charger saath. Koi scratch ya dent nahi.",
+    "status": "available",
+    "images": [
+      "02-acer-swift-3-sf314-512/1.jpg",
+      "02-acer-swift-3-sf314-512/2.jpg",
+      "02-acer-swift-3-sf314-512/3.jpg"
+    ]
+  },
+  {
+    "brand": "Acer",
+    "model": "Nitro 5 AN515-58",
+    "processor": "Intel Core i5-12500H, RTX 3050",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "condition": "good",
+    "price": 165000,
+    "location": "Islamabad",
+    "description": "Acer Nitro 5 AN515-58 - Intel Core i5-12500H, RTX 3050, 16GB RAM, 512GB SSD. Achi working condition. Halke normal use ke nishan hain, performance bilkul theek. Original charger shamil.",
+    "status": "available",
+    "images": [
+      "03-acer-nitro-5-an515-58/1.jpg",
+      "03-acer-nitro-5-an515-58/2.jpg",
+      "03-acer-nitro-5-an515-58/3.jpg",
+      "03-acer-nitro-5-an515-58/4.jpg"
+    ]
+  },
+  {
+    "brand": "Apple",
+    "model": "MacBook Air M1 2020",
+    "processor": "Apple M1",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "condition": "good",
+    "price": 135000,
+    "location": "Lahore",
+    "description": "Apple MacBook Air M1 2020 - Apple M1, 8GB RAM, 256GB SSD. Achi working condition. Halke normal use ke nishan hain, performance bilkul theek. Original charger shamil.",
+    "status": "available",
+    "images": [
+      "04-apple-macbook-air-m1-2020/1.jpg",
+      "04-apple-macbook-air-m1-2020/2.jpg",
+      "04-apple-macbook-air-m1-2020/3.jpg"
+    ]
+  },
+  {
+    "brand": "Apple",
+    "model": "MacBook Air M2 2022",
+    "processor": "Apple M2",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "condition": "like_new",
+    "price": 195000,
+    "location": "Karachi",
+    "description": "Apple MacBook Air M2 2022 - Apple M2, 8GB RAM, 256GB SSD. Bohat kam use hua, bilkul clean condition. Box/charger saath. Koi scratch ya dent nahi.",
+    "status": "available",
+    "images": [
+      "05-apple-macbook-air-m2-2022/1.jpg",
+      "05-apple-macbook-air-m2-2022/2.jpg",
+      "05-apple-macbook-air-m2-2022/3.jpg"
+    ]
+  },
+  {
+    "brand": "Apple",
+    "model": "MacBook Pro 13 M1 2020",
+    "processor": "Apple M1",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "condition": "good",
+    "price": 175000,
+    "location": "Islamabad",
+    "description": "Apple MacBook Pro 13 M1 2020 - Apple M1, 16GB RAM, 512GB SSD. Achi working condition. Halke normal use ke nishan hain, performance bilkul theek. Original charger shamil.",
+    "status": "available",
+    "images": [
+      "06-apple-macbook-pro-13-m1-2020/1.jpg",
+      "06-apple-macbook-pro-13-m1-2020/2.jpg",
+      "06-apple-macbook-pro-13-m1-2020/3.jpg"
+    ]
+  },
+  {
+    "brand": "Apple",
+    "model": "MacBook Pro 14 M1 Pro 2021",
+    "processor": "Apple M1 Pro",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "condition": "like_new",
+    "price": 310000,
+    "location": "Lahore",
+    "description": "Apple MacBook Pro 14 M1 Pro 2021 - Apple M1 Pro, 16GB RAM, 512GB SSD. Bohat kam use hua, bilkul clean condition. Box/charger saath. Koi scratch ya dent nahi.",
+    "status": "available",
+    "images": [
+      "07-apple-macbook-pro-14-m1-pro-2021/1.jpg",
+      "07-apple-macbook-pro-14-m1-pro-2021/2.jpg",
+      "07-apple-macbook-pro-14-m1-pro-2021/3.jpg"
+    ]
+  },
+  {
+    "brand": "Asus",
+    "model": "VivoBook 15 X1502",
+    "processor": "Intel Core i5-1135G7",
+    "ram": "8GB",
+    "storage": "512GB SSD",
+    "condition": "good",
+    "price": 68000,
+    "location": "Faisalabad",
+    "description": "Asus VivoBook 15 X1502 - Intel Core i5-1135G7, 8GB RAM, 512GB SSD. Achi working condition. Halke normal use ke nishan hain, performance bilkul theek. Original charger shamil.",
+    "status": "available",
+    "images": [
+      "08-asus-vivobook-15-x1502/1.jpg",
+      "08-asus-vivobook-15-x1502/2.jpg",
+      "08-asus-vivobook-15-x1502/3.jpg"
+    ]
+  },
+  {
+    "brand": "Asus",
+    "model": "ROG Strix G15 G513",
+    "processor": "AMD Ryzen 7 5800H, RTX 3060",
+    "ram": "16GB",
+    "storage": "1TB SSD",
+    "condition": "good",
+    "price": 205000,
+    "location": "Lahore",
+    "description": "Asus ROG Strix G15 G513 - AMD Ryzen 7 5800H, RTX 3060, 16GB RAM, 1TB SSD. Achi working condition. Halke normal use ke nishan hain, performance bilkul theek. Original charger shamil.",
+    "status": "available",
+    "images": [
+      "09-asus-rog-strix-g15-g513/1.jpg",
+      "09-asus-rog-strix-g15-g513/2.jpg",
+      "09-asus-rog-strix-g15-g513/3.jpg",
+      "09-asus-rog-strix-g15-g513/4.jpg"
+    ]
+  },
+  {
+    "brand": "Asus",
+    "model": "ZenBook 14 UX425",
+    "processor": "Intel Core i7-1165G7",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "condition": "like_new",
+    "price": 125000,
+    "location": "Rawalpindi",
+    "description": "Asus ZenBook 14 UX425 - Intel Core i7-1165G7, 16GB RAM, 512GB SSD. Bohat kam use hua, bilkul clean condition. Box/charger saath. Koi scratch ya dent nahi.",
+    "status": "available",
+    "images": [
+      "10-asus-zenbook-14-ux425/1.jpg",
+      "10-asus-zenbook-14-ux425/2.jpg",
+      "10-asus-zenbook-14-ux425/3.jpg"
+    ]
+  },
+  {
+    "brand": "Dell",
+    "model": "Latitude 7420",
+    "processor": "Intel Core i7-1185G7",
+    "ram": "16GB",
+    "storage": "256GB SSD",
+    "condition": "good",
+    "price": 98000,
+    "location": "Lahore",
+    "description": "Dell Latitude 7420 - Intel Core i7-1185G7, 16GB RAM, 256GB SSD. Achi working condition. Halke normal use ke nishan hain, performance bilkul theek. Original charger shamil.",
+    "status": "available",
+    "images": [
+      "11-dell-latitude-7420/1.jpg",
+      "11-dell-latitude-7420/2.jpg",
+      "11-dell-latitude-7420/3.jpg"
+    ]
+  },
+  {
+    "brand": "Dell",
+    "model": "Latitude 5420",
+    "processor": "Intel Core i5-1145G7",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "condition": "good",
+    "price": 72000,
+    "location": "Karachi",
+    "description": "Dell Latitude 5420 - Intel Core i5-1145G7, 8GB RAM, 256GB SSD. Achi working condition. Halke normal use ke nishan hain, performance bilkul theek. Original charger shamil.",
+    "status": "available",
+    "images": [
+      "12-dell-latitude-5420/1.jpg",
+      "12-dell-latitude-5420/2.jpg",
+      "12-dell-latitude-5420/3.jpg"
+    ]
+  },
+  {
+    "brand": "Dell",
+    "model": "XPS 13 9310",
+    "processor": "Intel Core i7-1165G7",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "condition": "like_new",
+    "price": 145000,
+    "location": "Islamabad",
+    "description": "Dell XPS 13 9310 - Intel Core i7-1165G7, 16GB RAM, 512GB SSD. Bohat kam use hua, bilkul clean condition. Box/charger saath. Koi scratch ya dent nahi.",
+    "status": "available",
+    "images": [
+      "13-dell-xps-13-9310/1.jpg",
+      "13-dell-xps-13-9310/2.jpg",
+      "13-dell-xps-13-9310/3.jpg"
+    ]
+  },
+  {
+    "brand": "Dell",
+    "model": "Inspiron 15 3511",
+    "processor": "Intel Core i3-1115G4",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "condition": "fair",
+    "price": 52000,
+    "location": "Multan",
+    "description": "Dell Inspiron 15 3511 - Intel Core i3-1115G4, 8GB RAM, 256GB SSD. Chalti hui condition, body par scratches hain lekin sab kuch kaam karta hai. Price isi wajah se kam.",
+    "status": "available",
+    "images": [
+      "14-dell-inspiron-15-3511/1.jpg",
+      "14-dell-inspiron-15-3511/2.jpg",
+      "14-dell-inspiron-15-3511/3.jpg"
+    ]
+  },
+  {
+    "brand": "Gigabyte",
+    "model": "G5 KE",
+    "processor": "Intel Core i5-12500H, RTX 3060",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "condition": "good",
+    "price": 175000,
+    "location": "Lahore",
+    "description": "Gigabyte G5 KE - Intel Core i5-12500H, RTX 3060, 16GB RAM, 512GB SSD. Achi working condition. Halke normal use ke nishan hain, performance bilkul theek. Original charger shamil.",
+    "status": "available",
+    "images": [
+      "15-gigabyte-g5-ke/1.jpg",
+      "15-gigabyte-g5-ke/2.jpg",
+      "15-gigabyte-g5-ke/3.jpg"
+    ]
+  },
+  {
+    "brand": "Gigabyte",
+    "model": "AORUS 15P XD",
+    "processor": "Intel Core i7-11800H, RTX 3070",
+    "ram": "16GB",
+    "storage": "1TB SSD",
+    "condition": "good",
+    "price": 245000,
+    "location": "Karachi",
+    "description": "Gigabyte AORUS 15P XD - Intel Core i7-11800H, RTX 3070, 16GB RAM, 1TB SSD. Achi working condition. Halke normal use ke nishan hain, performance bilkul theek. Original charger shamil.",
+    "status": "available",
+    "images": [
+      "16-gigabyte-aorus-15p-xd/1.jpg",
+      "16-gigabyte-aorus-15p-xd/2.jpg",
+      "16-gigabyte-aorus-15p-xd/3.jpg"
+    ]
+  },
+  {
+    "brand": "Gigabyte",
+    "model": "AERO 15 OLED",
+    "processor": "Intel Core i7-11800H, RTX 3070",
+    "ram": "32GB",
+    "storage": "1TB SSD",
+    "condition": "like_new",
+    "price": 285000,
+    "location": "Islamabad",
+    "description": "Gigabyte AERO 15 OLED - Intel Core i7-11800H, RTX 3070, 32GB RAM, 1TB SSD. Bohat kam use hua, bilkul clean condition. Box/charger saath. Koi scratch ya dent nahi.",
+    "status": "available",
+    "images": [
+      "17-gigabyte-aero-15-oled/1.jpg",
+      "17-gigabyte-aero-15-oled/2.jpg",
+      "17-gigabyte-aero-15-oled/3.jpg",
+      "17-gigabyte-aero-15-oled/4.jpg"
+    ]
+  },
+  {
+    "brand": "HP",
+    "model": "EliteBook 840 G7",
+    "processor": "Intel Core i5-10310U",
+    "ram": "16GB",
+    "storage": "256GB SSD",
+    "condition": "good",
+    "price": 65000,
+    "location": "Lahore",
+    "description": "HP EliteBook 840 G7 - Intel Core i5-10310U, 16GB RAM, 256GB SSD. Achi working condition. Halke normal use ke nishan hain, performance bilkul theek. Original charger shamil.",
+    "status": "available",
+    "images": [
+      "18-hp-elitebook-840-g7/1.jpg",
+      "18-hp-elitebook-840-g7/2.jpg",
+      "18-hp-elitebook-840-g7/3.jpg"
+    ]
+  },
+  {
+    "brand": "HP",
+    "model": "ProBook 450 G8",
+    "processor": "Intel Core i5-1135G7",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "condition": "good",
+    "price": 62000,
+    "location": "Faisalabad",
+    "description": "HP ProBook 450 G8 - Intel Core i5-1135G7, 8GB RAM, 256GB SSD. Achi working condition. Halke normal use ke nishan hain, performance bilkul theek. Original charger shamil.",
+    "status": "available",
+    "images": [
+      "19-hp-probook-450-g8/1.jpg",
+      "19-hp-probook-450-g8/2.jpg",
+      "19-hp-probook-450-g8/3.jpg",
+      "19-hp-probook-450-g8/4.jpg"
+    ]
+  },
+  {
+    "brand": "HP",
+    "model": "Pavilion 15-eg",
+    "processor": "Intel Core i7-1165G7",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "condition": "good",
+    "price": 92000,
+    "location": "Karachi",
+    "description": "HP Pavilion 15-eg - Intel Core i7-1165G7, 16GB RAM, 512GB SSD. Achi working condition. Halke normal use ke nishan hain, performance bilkul theek. Original charger shamil.",
+    "status": "available",
+    "images": [
+      "20-hp-pavilion-15-eg/1.jpg",
+      "20-hp-pavilion-15-eg/2.jpg",
+      "20-hp-pavilion-15-eg/3.jpg",
+      "20-hp-pavilion-15-eg/4.jpg"
+    ]
+  },
+  {
+    "brand": "HP",
+    "model": "Victus 16",
+    "processor": "AMD Ryzen 5 5600H, RTX 3050 Ti",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "condition": "like_new",
+    "price": 155000,
+    "location": "Lahore",
+    "description": "HP Victus 16 - AMD Ryzen 5 5600H, RTX 3050 Ti, 16GB RAM, 512GB SSD. Bohat kam use hua, bilkul clean condition. Box/charger saath. Koi scratch ya dent nahi.",
+    "status": "available",
+    "images": [
+      "21-hp-victus-16/1.jpg",
+      "21-hp-victus-16/2.jpg",
+      "21-hp-victus-16/3.jpg"
+    ]
+  },
+  {
+    "brand": "Huawei",
+    "model": "MateBook D15",
+    "processor": "Intel Core i5-1135G7",
+    "ram": "8GB",
+    "storage": "512GB SSD",
+    "condition": "good",
+    "price": 70000,
+    "location": "Rawalpindi",
+    "description": "Huawei MateBook D15 - Intel Core i5-1135G7, 8GB RAM, 512GB SSD. Achi working condition. Halke normal use ke nishan hain, performance bilkul theek. Original charger shamil.",
+    "status": "available",
+    "images": [
+      "22-huawei-matebook-d15/1.jpg",
+      "22-huawei-matebook-d15/2.jpg",
+      "22-huawei-matebook-d15/3.jpg"
+    ]
+  },
+  {
+    "brand": "Huawei",
+    "model": "MateBook 14",
+    "processor": "AMD Ryzen 5 4600H",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "condition": "fair",
+    "price": 78000,
+    "location": "Lahore",
+    "description": "Huawei MateBook 14 - AMD Ryzen 5 4600H, 16GB RAM, 512GB SSD. Chalti hui condition, body par scratches hain lekin sab kuch kaam karta hai. Price isi wajah se kam.",
+    "status": "available",
+    "images": [
+      "23-huawei-matebook-14/1.jpg",
+      "23-huawei-matebook-14/2.jpg",
+      "23-huawei-matebook-14/3.jpg",
+      "23-huawei-matebook-14/4.jpg"
+    ]
+  },
+  {
+    "brand": "Huawei",
+    "model": "MateBook X Pro 2020",
+    "processor": "Intel Core i7-10510U",
+    "ram": "16GB",
+    "storage": "1TB SSD",
+    "condition": "good",
+    "price": 115000,
+    "location": "Islamabad",
+    "description": "Huawei MateBook X Pro 2020 - Intel Core i7-10510U, 16GB RAM, 1TB SSD. Achi working condition. Halke normal use ke nishan hain, performance bilkul theek. Original charger shamil.",
+    "status": "available",
+    "images": [
+      "24-huawei-matebook-x-pro-2020/1.jpg",
+      "24-huawei-matebook-x-pro-2020/2.jpg",
+      "24-huawei-matebook-x-pro-2020/3.jpg",
+      "24-huawei-matebook-x-pro-2020/4.jpg"
+    ]
+  },
+  {
+    "brand": "Lenovo",
+    "model": "ThinkPad T480",
+    "processor": "Intel Core i5-8350U",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "condition": "fair",
+    "price": 42000,
+    "location": "Lahore",
+    "description": "Lenovo ThinkPad T480 - Intel Core i5-8350U, 8GB RAM, 256GB SSD. Chalti hui condition, body par scratches hain lekin sab kuch kaam karta hai. Price isi wajah se kam.",
+    "status": "available",
+    "images": [
+      "25-lenovo-thinkpad-t480/1.jpg",
+      "25-lenovo-thinkpad-t480/2.jpg",
+      "25-lenovo-thinkpad-t480/3.jpg",
+      "25-lenovo-thinkpad-t480/4.jpg"
+    ]
+  },
+  {
+    "brand": "Lenovo",
+    "model": "ThinkPad X1 Carbon Gen 9",
+    "processor": "Intel Core i7-1185G7",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "condition": "like_new",
+    "price": 155000,
+    "location": "Karachi",
+    "description": "Lenovo ThinkPad X1 Carbon Gen 9 - Intel Core i7-1185G7, 16GB RAM, 512GB SSD. Bohat kam use hua, bilkul clean condition. Box/charger saath. Koi scratch ya dent nahi.",
+    "status": "available",
+    "images": [
+      "26-lenovo-thinkpad-x1-carbon-gen-9/1.jpg",
+      "26-lenovo-thinkpad-x1-carbon-gen-9/2.jpg",
+      "26-lenovo-thinkpad-x1-carbon-gen-9/3.jpg"
+    ]
+  },
+  {
+    "brand": "Lenovo",
+    "model": "IdeaPad Slim 3 15IAU7",
+    "processor": "Intel Core i5-1235U",
+    "ram": "8GB",
+    "storage": "512GB SSD",
+    "condition": "good",
+    "price": 75000,
+    "location": "Multan",
+    "description": "Lenovo IdeaPad Slim 3 15IAU7 - Intel Core i5-1235U, 8GB RAM, 512GB SSD. Achi working condition. Halke normal use ke nishan hain, performance bilkul theek. Original charger shamil.",
+    "status": "available",
+    "images": [
+      "27-lenovo-ideapad-slim-3-15iau7/1.jpg",
+      "27-lenovo-ideapad-slim-3-15iau7/2.jpg",
+      "27-lenovo-ideapad-slim-3-15iau7/3.jpg"
+    ]
+  },
+  {
+    "brand": "Lenovo",
+    "model": "Legion 5 15ACH6",
+    "processor": "AMD Ryzen 7 5800H, RTX 3060",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "condition": "good",
+    "price": 195000,
+    "location": "Lahore",
+    "description": "Lenovo Legion 5 15ACH6 - AMD Ryzen 7 5800H, RTX 3060, 16GB RAM, 512GB SSD. Achi working condition. Halke normal use ke nishan hain, performance bilkul theek. Original charger shamil.",
+    "status": "available",
+    "images": [
+      "28-lenovo-legion-5-15ach6/1.jpg",
+      "28-lenovo-legion-5-15ach6/2.jpg",
+      "28-lenovo-legion-5-15ach6/3.jpg",
+      "28-lenovo-legion-5-15ach6/4.jpg"
+    ]
+  },
+  {
+    "brand": "MSI",
+    "model": "GF63 Thin 11SC",
+    "processor": "Intel Core i5-11400H, GTX 1650",
+    "ram": "8GB",
+    "storage": "512GB SSD",
+    "condition": "good",
+    "price": 110000,
+    "location": "Faisalabad",
+    "description": "MSI GF63 Thin 11SC - Intel Core i5-11400H, GTX 1650, 8GB RAM, 512GB SSD. Achi working condition. Halke normal use ke nishan hain, performance bilkul theek. Original charger shamil.",
+    "status": "available",
+    "images": [
+      "29-msi-gf63-thin-11sc/1.jpg",
+      "29-msi-gf63-thin-11sc/2.jpg",
+      "29-msi-gf63-thin-11sc/3.jpg"
+    ]
+  },
+  {
+    "brand": "MSI",
+    "model": "Katana GF66 12UE",
+    "processor": "Intel Core i7-12700H, RTX 3060",
+    "ram": "16GB",
+    "storage": "1TB SSD",
+    "condition": "like_new",
+    "price": 215000,
+    "location": "Lahore",
+    "description": "MSI Katana GF66 12UE - Intel Core i7-12700H, RTX 3060, 16GB RAM, 1TB SSD. Bohat kam use hua, bilkul clean condition. Box/charger saath. Koi scratch ya dent nahi.",
+    "status": "available",
+    "images": [
+      "30-msi-katana-gf66-12ue/1.jpg",
+      "30-msi-katana-gf66-12ue/2.jpg",
+      "30-msi-katana-gf66-12ue/3.jpg"
+    ]
+  },
+  {
+    "brand": "MSI",
+    "model": "Modern 14 C11M",
+    "processor": "Intel Core i5-1135G7",
+    "ram": "8GB",
+    "storage": "512GB SSD",
+    "condition": "fair",
+    "price": 65000,
+    "location": "Rawalpindi",
+    "description": "MSI Modern 14 C11M - Intel Core i5-1135G7, 8GB RAM, 512GB SSD. Chalti hui condition, body par scratches hain lekin sab kuch kaam karta hai. Price isi wajah se kam.",
+    "status": "available",
+    "images": [
+      "31-msi-modern-14-c11m/1.jpg",
+      "31-msi-modern-14-c11m/2.jpg",
+      "31-msi-modern-14-c11m/3.jpg",
+      "31-msi-modern-14-c11m/4.jpg"
+    ]
+  },
+  {
+    "brand": "Microsoft",
+    "model": "Surface Laptop 3 13.5",
+    "processor": "Intel Core i5-1035G7",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "condition": "good",
+    "price": 88000,
+    "location": "Lahore",
+    "description": "Microsoft Surface Laptop 3 13.5 - Intel Core i5-1035G7, 8GB RAM, 256GB SSD. Achi working condition. Halke normal use ke nishan hain, performance bilkul theek. Original charger shamil.",
+    "status": "available",
+    "images": [
+      "32-microsoft-surface-laptop-3-13-5/1.jpg",
+      "32-microsoft-surface-laptop-3-13-5/2.jpg",
+      "32-microsoft-surface-laptop-3-13-5/3.jpg"
+    ]
+  },
+  {
+    "brand": "Microsoft",
+    "model": "Surface Laptop 4",
+    "processor": "Intel Core i7-1185G7",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "condition": "like_new",
+    "price": 135000,
+    "location": "Islamabad",
+    "description": "Microsoft Surface Laptop 4 - Intel Core i7-1185G7, 16GB RAM, 512GB SSD. Bohat kam use hua, bilkul clean condition. Box/charger saath. Koi scratch ya dent nahi.",
+    "status": "available",
+    "images": [
+      "33-microsoft-surface-laptop-4/1.jpg",
+      "33-microsoft-surface-laptop-4/2.jpg",
+      "33-microsoft-surface-laptop-4/3.jpg",
+      "33-microsoft-surface-laptop-4/4.jpg"
+    ]
+  },
+  {
+    "brand": "Microsoft",
+    "model": "Surface Laptop Go",
+    "processor": "Intel Core i5-1035G1",
+    "ram": "8GB",
+    "storage": "128GB SSD",
+    "condition": "fair",
+    "price": 58000,
+    "location": "Karachi",
+    "description": "Microsoft Surface Laptop Go - Intel Core i5-1035G1, 8GB RAM, 128GB SSD. Chalti hui condition, body par scratches hain lekin sab kuch kaam karta hai. Price isi wajah se kam.",
+    "status": "available",
+    "images": [
+      "34-microsoft-surface-laptop-go/1.jpg",
+      "34-microsoft-surface-laptop-go/2.jpg",
+      "34-microsoft-surface-laptop-go/3.jpg",
+      "34-microsoft-surface-laptop-go/4.jpg"
+    ]
+  },
+  {
+    "brand": "Razer",
+    "model": "Blade 15 Base 2020",
+    "processor": "Intel Core i7-10750H, RTX 2070",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "condition": "good",
+    "price": 235000,
+    "location": "Lahore",
+    "description": "Razer Blade 15 Base 2020 - Intel Core i7-10750H, RTX 2070, 16GB RAM, 512GB SSD. Achi working condition. Halke normal use ke nishan hain, performance bilkul theek. Original charger shamil.",
+    "status": "available",
+    "images": [
+      "35-razer-blade-15-base-2020/1.jpg",
+      "35-razer-blade-15-base-2020/2.jpg",
+      "35-razer-blade-15-base-2020/3.jpg",
+      "35-razer-blade-15-base-2020/4.jpg"
+    ]
+  },
+  {
+    "brand": "Razer",
+    "model": "Blade Stealth 13",
+    "processor": "Intel Core i7-1065G7",
+    "ram": "16GB",
+    "storage": "256GB SSD",
+    "condition": "good",
+    "price": 120000,
+    "location": "Islamabad",
+    "description": "Razer Blade Stealth 13 - Intel Core i7-1065G7, 16GB RAM, 256GB SSD. Achi working condition. Halke normal use ke nishan hain, performance bilkul theek. Original charger shamil.",
+    "status": "available",
+    "images": [
+      "36-razer-blade-stealth-13/1.jpg",
+      "36-razer-blade-stealth-13/2.jpg",
+      "36-razer-blade-stealth-13/3.jpg"
+    ]
+  },
+  {
+    "brand": "Razer",
+    "model": "Blade 14 2021",
+    "processor": "AMD Ryzen 9 5900HX, RTX 3070",
+    "ram": "16GB",
+    "storage": "1TB SSD",
+    "condition": "like_new",
+    "price": 345000,
+    "location": "Karachi",
+    "description": "Razer Blade 14 2021 - AMD Ryzen 9 5900HX, RTX 3070, 16GB RAM, 1TB SSD. Bohat kam use hua, bilkul clean condition. Box/charger saath. Koi scratch ya dent nahi.",
+    "status": "available",
+    "images": [
+      "37-razer-blade-14-2021/1.jpg",
+      "37-razer-blade-14-2021/2.jpg",
+      "37-razer-blade-14-2021/3.jpg",
+      "37-razer-blade-14-2021/4.jpg"
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Book Pro 15",
+    "processor": "Intel Core i7-1165G7",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "condition": "like_new",
+    "price": 125000,
+    "location": "Lahore",
+    "description": "Samsung Galaxy Book Pro 15 - Intel Core i7-1165G7, 16GB RAM, 512GB SSD. Bohat kam use hua, bilkul clean condition. Box/charger saath. Koi scratch ya dent nahi.",
+    "status": "available",
+    "images": [
+      "38-samsung-galaxy-book-pro-15/1.jpg",
+      "38-samsung-galaxy-book-pro-15/2.jpg",
+      "38-samsung-galaxy-book-pro-15/3.jpg"
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "model": "Galaxy Book Flex",
+    "processor": "Intel Core i5-1035G4",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "condition": "good",
+    "price": 78000,
+    "location": "Faisalabad",
+    "description": "Samsung Galaxy Book Flex - Intel Core i5-1035G4, 8GB RAM, 256GB SSD. Achi working condition. Halke normal use ke nishan hain, performance bilkul theek. Original charger shamil.",
+    "status": "available",
+    "images": [
+      "39-samsung-galaxy-book-flex/1.jpg",
+      "39-samsung-galaxy-book-flex/2.jpg",
+      "39-samsung-galaxy-book-flex/3.jpg",
+      "39-samsung-galaxy-book-flex/4.jpg"
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "model": "Notebook 9 Pro",
+    "processor": "Intel Core i7-8550U",
+    "ram": "16GB",
+    "storage": "256GB SSD",
+    "condition": "fair",
+    "price": 55000,
+    "location": "Multan",
+    "description": "Samsung Notebook 9 Pro - Intel Core i7-8550U, 16GB RAM, 256GB SSD. Chalti hui condition, body par scratches hain lekin sab kuch kaam karta hai. Price isi wajah se kam.",
+    "status": "available",
+    "images": [
+      "40-samsung-notebook-9-pro/1.jpg",
+      "40-samsung-notebook-9-pro/2.jpg",
+      "40-samsung-notebook-9-pro/3.jpg"
+    ]
+  }
+]
