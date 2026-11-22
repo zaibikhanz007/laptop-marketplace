@@ -18,7 +18,10 @@ return [
     |
     */
 
-    'driver' => env('SESSION_DRIVER', 'database'),
+    // Cookie sessions keep the app usable on serverless deployments even when
+    // no persistent sessions table has been provisioned yet. Set
+    // SESSION_DRIVER=database explicitly when a shared sessions table is used.
+    'driver' => env('SESSION_DRIVER', 'cookie'),
 
     /*
     |--------------------------------------------------------------------------
