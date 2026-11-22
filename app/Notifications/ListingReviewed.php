@@ -23,6 +23,6 @@ class ListingReviewed extends Notification implements ShouldQueue
             $message .= " Reason: {$this->laptop->rejection_reason}";
         }
 
-        return ['message' => $message, 'url' => route('laptops.mine')];
+        return ['message' => $message, 'url' => route('laptops.index')];
     }
 }

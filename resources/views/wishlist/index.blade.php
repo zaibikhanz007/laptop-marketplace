@@ -14,7 +14,7 @@
                     <a href="{{ route('laptops.show', $laptop) }}" class="block">
                         <div class="aspect-[4/3] bg-gray-100 relative">
                             <img
-                                src="{{ $laptop->images->first() ? asset('storage/'.$laptop->images->first()->path) : asset('images/laptop-placeholder.svg') }}"
+                                src="{{ $laptop->images->first() ? $laptop->images->first()->url : asset('images/laptop-placeholder.svg') }}"
                                 onerror="this.onerror=null;this.src='{{ asset('images/laptop-placeholder.svg') }}'"
                                 alt="{{ $laptop->brand }} {{ $laptop->model }}"
                                 class="w-full h-full object-cover"
@@ -51,3 +51,7 @@
         <div class="mt-6">{{ $wishlists->links() }}</div>
     </div>
 </x-app-layout>
+
+
+
+

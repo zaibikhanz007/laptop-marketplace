@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Requests\ProfileUpdateRequest;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
+use App\Services\CloudinaryImageService;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Storage;
@@ -53,7 +54,11 @@ class ProfileController extends Controller
 
         foreach ($user->laptops()->with('images')->get() as $laptop) {
             foreach ($laptop->images as $image) {
-                Storage::disk('public')->delete($image->path);
+                if ($image->cloudinary_public_id) {
+                    app(CloudinaryImageService::class)->delete($image->cloudinary_public_id);
+                } else {
+                    Storage::disk('public')->delete($image->path);
+                }
             }
         }
 
@@ -65,3 +70,4 @@ class ProfileController extends Controller
         return Redirect::to('/');
     }
 }
+

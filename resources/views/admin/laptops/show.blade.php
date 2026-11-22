@@ -12,7 +12,7 @@
             </div>
             @if($laptop->rejection_reason)<div class="mt-5 rounded-md bg-red-50 p-3 text-sm text-red-700"><strong>Rejection reason:</strong> {{ $laptop->rejection_reason }}</div>@endif
             <div class="mt-5 grid grid-cols-2 sm:grid-cols-3 gap-3">
-                @forelse($laptop->images as $image)<img src="{{ asset('storage/'.$image->path) }}" onerror="this.onerror=null;this.src='{{ asset('images/laptop-placeholder.svg') }}'" class="w-full h-32 object-cover rounded-md" alt="Laptop image">@empty<img src="{{ asset('images/laptop-placeholder.svg') }}" class="w-full h-48 object-contain rounded-md bg-gray-100" alt="Laptop illustration">@endforelse
+                @forelse($laptop->images as $image)<img src="{{ $image->url }}" onerror="this.onerror=null;this.src='{{ asset('images/laptop-placeholder.svg') }}'" class="w-full h-32 object-cover rounded-md" alt="Laptop image">@empty<img src="{{ asset('images/laptop-placeholder.svg') }}" class="w-full h-48 object-contain rounded-md bg-gray-100" alt="Laptop illustration">@endforelse
             </div>
         </section>
         <section class="bg-white border rounded-lg p-5 space-y-3">
@@ -42,3 +42,7 @@
         </section>
     </div>
 </x-admin-layout>
+
+
+
+

@@ -10,7 +10,7 @@
     <a href="{{ route('laptops.show', $laptop) }}" class="block">
         <div class="aspect-[4/3] bg-gray-100 relative">
             <img
-                src="{{ $cover ? asset('storage/'.$cover->path) : asset('images/laptop-placeholder.svg') }}"
+                src="{{ $cover ? $cover->url : asset('images/laptop-placeholder.svg') }}"
                 onerror="this.onerror=null;this.src='{{ asset('images/laptop-placeholder.svg') }}'"
                 class="w-full h-full object-cover"
                 alt="{{ $laptop->brand }} {{ $laptop->model }}"
@@ -21,7 +21,7 @@
         </div>
         <div class="p-4">
             <h3 class="font-semibold">{{ $laptop->brand }} {{ $laptop->model }}</h3>
-            <p class="text-sm text-gray-500">{{ $laptop->ram }} · {{ $laptop->storage }} · {{ ucfirst(str_replace('_', ' ', $laptop->condition)) }}</p>
+            <p class="text-sm text-gray-500">{{ $laptop->ram }} · {{ $laptop->storage_capacity ? $laptop->storage_capacity . ' ' . $laptop->storage_type : $laptop->storage }} · {{ ucfirst(str_replace('_', ' ', $laptop->condition)) }}</p>
             <p class="mt-2 text-lg font-bold text-indigo-600">Rs. {{ number_format($laptop->price) }}</p>
             <p class="text-xs text-gray-400">{{ $laptop->location }}</p>
             @if ($laptop->seller)
@@ -54,3 +54,7 @@
         </form>
     </div>
 </article>
+
+
+
+

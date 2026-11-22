@@ -18,7 +18,7 @@
             </div>
             <div class="lapmarket-field">
                 <label for="condition">Condition</label>
-                <select id="condition" name="condition" class="lapmarket-native-select"><option value="">Any condition</option>@foreach (['like_new' => 'Like New', 'good' => 'Good', 'fair' => 'Fair', 'needs_repair' => 'Needs Repair'] as $key => $label)<option value="{{ $key }}" @selected(request('condition') === $key)>{{ $label }}</option>@endforeach</select>
+                <select id="condition" name="condition" class="lapmarket-native-select"><option value="">Any condition</option>@foreach (['new' => 'New', 'like_new' => 'Like New', 'used' => 'Used', 'refurbished' => 'Refurbished', 'good' => 'Good', 'fair' => 'Fair', 'needs_repair' => 'Needs Repair'] as $key => $label)<option value="{{ $key }}" @selected(request('condition') === $key)>{{ $label }}</option>@endforeach</select>
             </div>
             <div class="lapmarket-field">
                 <label for="city">Location</label>

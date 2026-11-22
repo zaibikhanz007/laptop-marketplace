@@ -10,14 +10,14 @@
                         @foreach ($laptop->images as $image)
                             <input class="gallery-selector sr-only" type="radio" name="laptop-gallery" id="gallery-{{ $image->id }}" @checked($loop->first)>
                             <div class="gallery-frame aspect-[4/3]">
-                                <img src="{{ asset('storage/'.$image->path) }}" onerror="this.onerror=null;this.src='{{ asset('images/laptop-placeholder.svg') }}'" alt="{{ $laptop->brand }} {{ $laptop->model }} image {{ $loop->iteration }}" class="w-full h-full object-contain">
+                                <img src="{{ $image->url }}" onerror="this.onerror=null;this.src='{{ asset('images/laptop-placeholder.svg') }}'" alt="{{ $laptop->brand }} {{ $laptop->model }} image {{ $loop->iteration }}" class="w-full h-full object-contain">
                             </div>
                         @endforeach
                     </div>
                     <div class="mt-3 flex gap-3 overflow-x-auto pb-2">
                         @foreach ($laptop->images as $image)
                             <label for="gallery-{{ $image->id }}" class="cursor-pointer shrink-0 rounded-md overflow-hidden border-2 border-transparent has-[:checked]:border-indigo-600">
-                                <img src="{{ asset('storage/'.$image->path) }}" onerror="this.onerror=null;this.src='{{ asset('images/laptop-placeholder.svg') }}'" alt="View image {{ $loop->iteration }}" class="w-20 h-16 object-cover">
+                                <img src="{{ $image->url }}" onerror="this.onerror=null;this.src='{{ asset('images/laptop-placeholder.svg') }}'" alt="View image {{ $loop->iteration }}" class="w-20 h-16 object-cover">
                             </label>
                         @endforeach
                     </div>
@@ -40,14 +40,17 @@
                         @endif
                         <span class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-1 rounded-full">Available</span>
                     </div>
-                    <h1 class="text-3xl font-bold text-gray-900">{{ $laptop->brand }} {{ $laptop->model }}</h1>
+                    <h1 class="text-3xl font-bold text-gray-900">{{ $laptop->title ?: $laptop->brand . ' ' . $laptop->model }}</h1>
                     <p class="mt-2 text-3xl font-bold text-indigo-600">Rs. {{ number_format($laptop->price) }}</p>
                 </div>
 
                 <dl class="grid grid-cols-2 gap-3 text-sm bg-white p-4 rounded-lg border">
-                    <dt class="text-gray-500">Processor</dt><dd>{{ $laptop->processor ?: '-' }}</dd>
+                    <dt class="text-gray-500">Title</dt><dd>{{ $laptop->title ?: $laptop->brand . ' ' . $laptop->model }}</dd>
+                    <dt class="text-gray-500">Processor</dt><dd>{{ $laptop->processor ?: '-' }}{{ $laptop->generation ? ' · ' . $laptop->generation : '' }}</dd>
                     <dt class="text-gray-500">RAM</dt><dd>{{ $laptop->ram ?: '-' }}</dd>
-                    <dt class="text-gray-500">Storage</dt><dd>{{ $laptop->storage ?: '-' }}</dd>
+                    <dt class="text-gray-500">Storage</dt><dd>{{ $laptop->storage_capacity ? $laptop->storage_capacity . ' ' . $laptop->storage_type : ($laptop->storage ?: '-') }}</dd>
+                    <dt class="text-gray-500">Graphics</dt><dd>{{ $laptop->graphics_card ?: '-' }}</dd>
+                    <dt class="text-gray-500">Screen size</dt><dd>{{ $laptop->screen_size ?: '-' }}</dd>
                     <dt class="text-gray-500">Condition</dt><dd>{{ ucfirst(str_replace('_', ' ', $laptop->condition)) }}</dd>
                     <dt class="text-gray-500">Location</dt><dd>{{ $laptop->location }}</dd>
                     <dt class="text-gray-500">Seller</dt>
@@ -95,7 +98,7 @@
                             @if (in_array($existingOrder->status, ['accepted', 'completed'], true))
                                 <div class="mt-3 rounded-md bg-green-50 p-3 text-sm">
                                     <p class="font-medium text-green-900">Seller contact</p>
-                                    <p class="text-green-800">Phone: {{ $laptop->seller->phone ?: 'Not provided' }}</p>
+                                    <p class="text-green-800">Phone: {{ $laptop->contact_number ?: ($laptop->seller->phone ?: 'Not provided') }}</p>
                                     <p class="text-green-800">City: {{ $laptop->seller->city ?: 'Not provided' }}</p>
                                 </div>
                             @else
@@ -122,3 +125,7 @@
         </div>
     </div>
 </x-app-layout>
+
+
+
+

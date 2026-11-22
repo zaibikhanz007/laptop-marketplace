@@ -24,15 +24,6 @@ Route::middleware(['auth', 'active'])->group(function () {
     Route::get('/laptops', [LaptopController::class, 'index'])->name('laptops.index');
     Route::get('/dashboard', fn () => redirect()->route('laptops.index'))->name('dashboard');
 
-    Route::get('/my-laptops', [LaptopController::class, 'mine'])->name('laptops.mine');
-    Route::get('/laptops/create', [LaptopController::class, 'create'])->name('laptops.create');
-    Route::post('/laptops', [LaptopController::class, 'store'])->middleware('throttle:10,1')->name('laptops.store');
-    Route::get('/laptops/{laptop}/edit', [LaptopController::class, 'edit'])->name('laptops.edit');
-    Route::put('/laptops/{laptop}', [LaptopController::class, 'update'])->name('laptops.update');
-    Route::delete('/laptops/{laptop}', [LaptopController::class, 'destroy'])->name('laptops.destroy');
-    Route::delete('/laptop-images/{image}', [LaptopController::class, 'destroyImage'])->name('laptops.images.destroy');
-    Route::patch('/laptops/{laptop}/images/{image}/cover', [LaptopController::class, 'setCover'])->name('laptops.images.cover');
-
     Route::post('/laptops/{laptop}/wishlist', [WishlistController::class, 'toggle'])->name('wishlist.toggle');
     Route::get('/wishlist', [WishlistController::class, 'index'])->name('wishlist.index');
 
